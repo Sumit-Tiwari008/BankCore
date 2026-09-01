@@ -1,6 +1,6 @@
-🏦 BankCore — Banking Information System
+# 🏦 BankCore 
 
-
+## Banking Information System
 A console-based Banking Information System built using **Core Java**.
 
 The project demonstrates how Java concepts such as **Object-Oriented Programming, exception handling, file handling, serialization, and password hashing** can be combined to build a functional banking application.
@@ -68,7 +68,7 @@ BankCore/
 
 
 
-How It Works
+## How It Works
 
 The application starts with a simple console menu:
 ---- MAIN MENU ----
@@ -88,7 +88,7 @@ After login, users can access their account menu:
 7. Update Profile
 8. Logout
 
-How to Run
+## How to Run
 Prerequisites
 Java 17 or later
 VS Code
@@ -108,8 +108,8 @@ java -cp bin com.bank.Main
 
 
 
-Author
+# Author
 
-SUMIT TIWARI
+## SUMIT TIWARI
 
 Built as a Core Java project while learning and practicing Java development.
