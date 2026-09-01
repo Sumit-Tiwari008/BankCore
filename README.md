@@ -66,3 +66,60 @@ BankCore/
 ├── README.md
 └── .gitignore
 
+```
+
+## How It Works
+
+The application starts with a simple console menu:
+
+```text
+---- MAIN MENU ----
+1. Register
+2. Login
+3. Exit
+```
+
+After login, users can access their account menu:
+
+```text
+---- ACCOUNT MENU ----
+1. View My Accounts
+2. Open New Account
+3. Deposit
+4. Withdraw
+5. Transfer Funds
+6. View Account Statement
+7. Update Profile
+8. Logout
+```
+## How to Run
+
+### Prerequisites
+
+- Java 17 or later
+- VS Code
+- Extension Pack for Java
+
+### Run in VS Code
+
+1. Clone or download the repository.
+2. Open the project folder in VS Code.
+3. Open:
+   ```text
+   src/com/bank/Main.java
+   ```
+4. Click the **Run** button above the `main()` method.
+
+### Run from Terminal
+
+```bash
+mkdir -p bin
+javac -d bin $(find src -name "*.java")
+java -cp bin com.bank.Main
+```
+
+## Author
+
+# Sumit Tiwari
+
+Built as a Core Java project while learning and practicing Java development.
