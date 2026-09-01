@@ -32,7 +32,7 @@ The project demonstrates how Java concepts such as **Object-Oriented Programming
 
 ## Project Structure
 
-  text
+```text
 BankCore/
 │
 ├── src/
@@ -65,7 +65,6 @@ BankCore/
 │
 ├── README.md
 └── .gitignore
-
 
 
 ## How It Works
